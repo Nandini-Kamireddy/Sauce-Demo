@@ -15,8 +15,11 @@ public class LogOutPage extends BasePage{
         homePage.loadHomePage(user, pass);
     }
 
-    public void LogOutProcess(){
+    public void LogOutProcess() throws Exception{
+    	Thread.sleep(1000);
         clickOnElement(menu_button);
+        Thread.sleep(1000);
         clickOnElement(log_out_btn);
+        Thread.sleep(1000);
     }
 }

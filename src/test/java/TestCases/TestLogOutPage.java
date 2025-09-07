@@ -17,7 +17,7 @@ public class TestLogOutPage extends DriverSetup {
     }
 
     @Test(dataProvider = "validCredentials", dataProviderClass = DataSet.class)
-    public void LogOutAndVerify(String user, String pass){
+    public void LogOutAndVerify(String user, String pass) throws Exception{
         logOutPage.NavigateHomeForLogOut(user, pass);
         logOutPage.LogOutProcess();
         Assert.assertEquals(logOutPage.getPageUrl(),logOutPage.login_page_url);
