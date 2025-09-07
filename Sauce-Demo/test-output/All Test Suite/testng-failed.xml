@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="D:/Rahul Personal/Web Automation/SauceDemoAutomationPOM/SauceDemoAutomationPOM/src/test/java/TestCases(failed)">
+    <classes>
+      <class name="TestCases.TestLogOutPage">
+        <methods>
+          <include name="LogOutAndVerify" invocation-numbers="0"/>
+          <include name="ddScreenShotAfterTest"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenABrowser"/>
+        </methods>
+      </class> <!-- TestCases.TestLogOutPage -->
+    </classes>
+  </test> <!-- D:/Rahul Personal/Web Automation/SauceDemoAutomationPOM/SauceDemoAutomationPOM/src/test/java/TestCases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
